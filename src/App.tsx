@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { Form } from 'components/Form/Form';
 import { Table } from 'components/Table/Table';
 import { fetchCurrencies } from 'features/currencies/currenciesSlice';
+
 import styles from './App.module.css';
 
 const App = () => {

@@ -66,7 +66,7 @@ export const Form = () => {
         />
       </div>
 
-      {currencies && (
+      {!!currencies && (
         <Select
           options={currencies}
           currentCurrency={currentCurrency}

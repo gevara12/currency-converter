@@ -22,9 +22,10 @@ export const Table: React.FC = () => {
         </thead>
 
         <tbody>
-          {currencies.map((item: TCurrency) => {
-            return <TableRow key={item.title} item={item} />;
-          })}
+          {!!currencies &&
+            currencies.map((item: TCurrency) => {
+              return <TableRow key={item.title} item={item} />;
+            })}
         </tbody>
       </table>
     </div>
