@@ -1,0 +1,29 @@
+.host {
+  padding-top: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.input {
+  margin-right: 16px;
+  width: 160px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 14px 16px;
+  border-radius: 4px;
+  background-color: #7c7c7c;
+}
+
+.input:focus {
+  outline: 0;
+}
+
+.result {
+  font-size: 24px;
+}
